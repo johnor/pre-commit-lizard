@@ -1,0 +1,10 @@
+---
+- id: lizard-cpp
+  name: lizard-cpp
+  description: Run lizard on cpp files
+  entry: lizard
+  language: python
+  types_or: ["c++", "c"]
+  args: ["--warnings_only", "-l", "cpp"]
+  pass_filenames: true
+  require_serial: false
